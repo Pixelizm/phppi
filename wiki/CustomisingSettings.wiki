@@ -1,6 +1,8 @@
 #summary Explanation of the settings
 #labels Featured
 
+Below are the current settings you can change for PHP Picture Index, if you would like a setting added then feel free to add it below in the comments section.
+
 = Visual Settings =
 
 || *Setting* || *Description* || *Accepts* || *Example* ||
