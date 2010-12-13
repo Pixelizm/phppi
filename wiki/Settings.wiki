@@ -1,4 +1,5 @@
 #summary Explanation of the settings
+#labels Featured
 
 = Visual Settings =
 
