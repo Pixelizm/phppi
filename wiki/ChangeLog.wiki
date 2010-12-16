@@ -1,0 +1,41 @@
+#labels Featured
+#Updated list of changes.
+
+== 0.9.2 (16th December, 2010) ==
+
+  * Fixed issue where the previous, next and home buttons would show before the image was loaded.
+  * Added the ability to have thumbnails on folders. The following are now possible:
+   * None: No thumbnail.
+   * Lazy Cache: Random thumbnail from cache folder or thumbs folder but will not update thumbnails if needed.
+   * Dynamic Cache: Random thumbnail from cache folder or thumbs folder, will update the thumbnail if GDv2 is enabled and it needs updating.
+   * Static: Uses a specified image inside each folder.
+   * Global Static: Uses a specified image inside the same folder as the index.php file (applies the image to all folders).
+  * Changed folder text to be bolded to make it stand out more.
+  * Added check for GD, if not installed $settings['thumbnail_gd'] will be set to false.
+
+== 0.9.1 (3rd December, 2010) ==
+
+  * Added visual_zoom_bar_color to settings which had been left out from the previous version.
+  * Added link to http://code.google.com/p/phppi/ in footer.
+
+== 0.9.0 (3rd December, 2010) ==
+
+  * New full image view.
+   * Auto zoom feature.
+   * Manual zoom in and out controls.
+   * Next and Previous buttons.
+   * Return to gallery button.
+  * Support for Mobile Safari (iPhone, iPad, iPod) improved.
+  * Support for Android added.
+  * New default color scheme.
+  * Added visual_background_color to settings so you can change the background color.
+
+== 0.8.0 (26th September, 2010) ==
+
+  * Initial release.
+  * GD v2.0 support for thumbnail creation.
+  * Caching of thumbnails, either on server or client side.
+  * Folder and sub-folder browsing.
+  * Header and footer support.
+  * JPEG and PNG support.
+  * Simple Mobile Safari viewing support (iPhone, iPad, iPod).
