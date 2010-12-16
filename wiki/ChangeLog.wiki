@@ -1,5 +1,5 @@
+#summary Updated list of changes.
 #labels Featured
-#Updated list of changes.
 
 == 0.9.2 (16th December, 2010) ==
 
