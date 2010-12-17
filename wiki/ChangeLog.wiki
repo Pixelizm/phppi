@@ -1,6 +1,10 @@
 #summary Updated list of changes.
 #labels Featured
 
+== 0.9.3 (18th December, 2010) ==
+
+  * Added check for whether files or folders are found and if not the process of displaying files or folders is not performed.
+
 == 0.9.2 (16th December, 2010) ==
 
   * Fixed issue where the previous, next and home buttons would show before the image was loaded.
