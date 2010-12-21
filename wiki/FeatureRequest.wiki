@@ -1,4 +1,5 @@
 #summary Request new features here
+#labels Featured
 
 == Feature Request ==
 
