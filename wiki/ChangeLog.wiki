@@ -1,4 +1,4 @@
-#summary Updated list of changes.
+#summary Updated list of changes
 #labels Featured
 
 == 0.9.4 (20th December, 2010) ==
