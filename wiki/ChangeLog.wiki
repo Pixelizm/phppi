@@ -1,6 +1,10 @@
 #summary Updated list of changes
 #labels Featured
 
+== 0.9.5 (1st February, 2011) ==
+
+  * Fixed 2 short php tags, should've been <?php.
+
 == 0.9.4 (20th December, 2010) ==
 
   * Added GZIP compression support (for HTML).
