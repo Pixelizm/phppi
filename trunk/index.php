@@ -1,6 +1,6 @@
 <?php
 /*
-PHP Picture Index 0.9.4
+PHP Picture Index 0.9.5
 ------------------------
 Created by: Brendan Ryan (http://www.pixelizm.com/)
 Site: http://code.google.com/p/phppi/
@@ -8,7 +8,7 @@ Licence: GNU General Public License v3
 http://www.gnu.org/licenses/
 */
 
-$version = '0.9.4';
+$version = '0.9.5';
 
 /* Settings */
 
@@ -813,8 +813,8 @@ if (isset($_GET['thumb']))
     <script type="text/javascript" src="<?php echo $settings['slimbox_folder']; ?>jquery.js"></script>
 	<script type="text/javascript" src="<?php echo $settings['slimbox_folder']; ?>slimbox2.js"></script>
     <link rel="stylesheet" href="<?php echo $settings['slimbox_folder']; ?>slimbox2.css" type="text/css" media="screen" />
-	<?
-	}
+	<?php
+    }
 	?>
 </head>
 <body>
@@ -838,8 +838,8 @@ if (isset($_GET['thumb']))
 	{
 	?>
 	<div class="page-parent"><a href="?<?php echo $var['dir_req_parent']; ?>">&laquo; Parent Directory</a></div>
-	<?
-	}
+	<?php
+    }
 	?>
 	<hr />
 	<?php
