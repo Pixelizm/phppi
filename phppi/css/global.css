@@ -1,0 +1,57 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	
+	-webkit-text-size-adjust: none;
+}
+
+img
+{
+	border: 0px;
+	
+	padding: 0px;
+	margin: 0px;
+}
+
+.thumbnail-container
+{
+	float: left;
+	
+	display: block;
+
+	margin: 0px 10px 10px 0px;
+	padding: 10px 10px 0px 10px;
+}
+
+.thumbnail-container .directory
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	display: block;
+}
+
+.thumbnail-container .file
+{
+	text-align: center;
+	
+	display: block;
+}
+
+.thumbnail-container .title
+{
+	padding: 10px 0px 10px 0px;
+	
+	display: block;
+}
+
+.thumbnail-container .title-text
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	text-overflow: ellipsis;
+	
+	display: block;
+}

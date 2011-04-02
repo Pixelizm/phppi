@@ -1,0 +1,64 @@
+#page-title
+{
+	/* Page Title Style */
+}
+
+.page-bar
+{
+	/* Bar Style (Has next, previous, home, etc buttons) */
+}
+
+#page-image-container
+{
+	/* Image Container Style on Full Image Page */
+}
+
+#page-container
+{
+	/* Page Container Style */
+}
+
+#page-error
+{
+	/* Page Error Style */
+}
+
+#page-footer
+{
+	/* Page Footer Style */
+}
+
+.previous-link
+{
+	/* Previous Link Style on Full Image Page and Folder Page */
+}
+
+.home-link
+{
+	/* Home Link Style on Full Image Page */
+}
+
+.next-link
+{
+	/* Next Link Style on Full Image Page */
+}
+
+.thumbnail-container
+{	
+	/* Thumbnail Container Style */
+}
+
+.thumbnail-container:hover
+{
+	/* (Optional) Thumbnail Container Hover Style */
+}
+
+.thumbnail-container .directory
+{
+	/* Directory Thumbnail Style */
+}
+
+.thumbnail-container .title
+{	
+	/* Thumbnail Text Style */
+}

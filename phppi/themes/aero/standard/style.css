@@ -1,0 +1,142 @@
+body { background-color: #ffffff; }
+
+a { text-decoration: none; }
+
+#page-title
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px; 
+	color: #ffffff;
+	
+	padding: 10px; 
+	
+	background-color: #989898; 
+	background-image: url('images/top_background.png'); 
+	background-repeat: repeat-x;
+	
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.page-bar
+{
+	border-top: 1px solid #a0afc3; 
+	border-bottom: 1px solid #a0afc3; 
+	
+	background-color: #dde9f7; 
+	background-image: url('images/bar_background.png'); 
+	background-repeat: repeat-x;
+	
+	height: 40px;
+}
+
+#page-image-container
+{
+	text-align: center;
+
+	background-color: #eef3fa;
+}
+
+#page-container
+{
+	padding: 10px 0px 0px 10px;
+}
+
+#page-notice
+{
+	padding: 10px 10px 10px 36px;
+	
+	background-color: #FFFFE7;
+	border-bottom: 1px solid #9E9F54;
+	background-image: url('images/notice.png');
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+#page-error
+{
+	padding: 20px 20px 20px 72px;
+	margin: 10px;
+	
+	background-color: #FFE7E7;
+	border: 1px solid #EF6161;
+	background-image: url('images/error.png');
+	background-repeat: no-repeat;
+	background-position: 20px center;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+#page-footer
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #cccccc;
+	
+	padding: 20px;
+	
+	text-align: center;
+}
+
+#page-footer a
+{
+	text-decoration: none;
+	color: #cccccc;
+	font-weight: bold;
+}
+
+.previous-link
+{
+	display: block;
+	
+	float: left;
+}
+
+.home-link
+{
+	display: block;
+	
+	float: left;
+}
+
+.next-link
+{
+	display: block;
+	
+	float: right;
+}
+
+.thumbnail-container
+{	
+	background-color: #ffffff;
+	
+	border: 1px solid #ffffff;
+}
+
+.thumbnail-container:hover
+{
+	background-image: url('images/hover_background.png');
+	background-repeat: repeat-x;
+	background-color: #ebf3fd;
+	
+	border: 1px solid #b8d6fb;
+}
+
+.thumbnail-container .directory
+{
+	background-image: url('images/folder.png');
+}
+
+.thumbnail-container .title
+{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
