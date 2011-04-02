@@ -1,6 +1,20 @@
 #summary Updated list of changes
 #labels Featured
 
+== 1.0.0 RC (2nd April, 2011) ==
+
+  * Theme support, PHPPI has been redesigned to allow easy creation of themes by use of ready made functions to insert content created by PHPPI.
+  * Improved mobile support by allowing theme designers to have a seperate mobile version of their theme.
+  * New default theme, Aero (based on the Windows Vista/7 theme).
+  * Speed improvements, caching of file information has been included. If enabled PHPPI will create an xml file containing file information for that folder. From testing, a folder that would take 10 seconds to display now only takes 0.5 seconds once cached.
+  * PHPPI is no longer a one file installation, this change was made to make PHPPI easier to work on as well as allow new features like themes. You can still use 0.9.5 if you want the one file installation but be aware that there will be no future updates to that version.
+  * Javascript navigation by using arrow keys on your keyboard.
+  * Javascript image loading so your web browser doesn't have to reload the page everytime you go to the next or previous images (disabled by default). Currently depending on the size of the image it may appear that you have not clicked next or previous but the image will display after it has loaded. This will be fixed in a future version where a loading animation will be displayed.
+  * Seperate settings file so future updates will not interfere with you settings (unless changes need to be made but you will be made aware in the change log).
+  * GIF files now supported, thumbnails created by GD now also use the same file type as the original file.
+  * Site notice, you can now display a message on every page. This depends on the theme.
+  * Security fixes.
+
 == 0.9.5 (1st February, 2011) ==
 
   * Fixed 2 short php tags, should've been <?php.
