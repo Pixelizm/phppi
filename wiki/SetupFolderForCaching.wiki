@@ -67,8 +67,7 @@ In the meanwhile if you can login using SSH (as root user) then perform the foll
  * Change the permissions to 0775.
 {{{chmod -R 775 Flowers}}}
 
-If your root login is disabled for SSH you could try the following and then run the commands above:
-{{{su}}}
+If your root login is disabled for SSH you could try the "su" or "sudo" commands (search Google for info on these commands if needed) and then run the commands above.
 
 You should now be able to remove the folder using FTP.
 
