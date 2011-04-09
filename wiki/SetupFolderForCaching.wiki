@@ -1,7 +1,7 @@
 #summary Read this if you're unable to get caching to work
 #labels Featured
 
-= Introduction =
+== Introduction ==
 
 This document should explain how to get caching to work with PHPPI. Depending on how your server is setup you may run into the issue where a cache folder is not created when you visit a folder using PHPPI (and of course caching is enabled in the settings).
 
@@ -9,7 +9,7 @@ Note: This document was created with Linux servers in mind. Wherever Apache is m
 
 Disclaimer: By following this guide you will not hold Brendan Ryan responsible for any damages to your files/server. This guide has been written as best as I possibly can but there may be situations where your server is setup differently and may react differently to what is explained below. If you have any concerns or are not confident with doing what is written below then it's recommended you contact your web host instead.
 
-= How To =
+== How To ==
 
 For caching to work PHPPI must be able to create a cache folder inside the folder that contains your pictures (this may include multiple folders. For example you have a Flowers, Nature and Urban folder each containing pictures, each folder will have it's own cache folder). For this to work the permissions of the folder containing your pictures must give write access to Apache.
 
@@ -17,7 +17,7 @@ Some ftp clients allow you to view the properties of a folder and see what permi
 
 To fix the permissions you may be able to do so using just FTP but this depends on how your server is setup. For FTP to work you would need the user/owner and or group of the folder containing your pictures already setup as your Apache user/group (www-data). If they're not then you are going to need to use SSH or contact your web host for assistance. Provided below are guides for both FTP and SSH.
 
-= FTP =
+== FTP ==
 
 Make sure you can change permissions using your FTP client before proceeding. Also look into how to do so using any guides provided by your FTP client, in most cases it's a matter of viewing the properties of the folder in your client.
 
@@ -25,7 +25,7 @@ Ok, so check the user/owner and group of your folder, if user/owner is set to yo
 
 You should now be able to get caching to work.
 
-= SSH =
+== SSH ==
 
 This section requires some Linux knowledge, if you get stuck search Google for guides or contact your web host.
 
@@ -52,7 +52,7 @@ Repeat the above steps for other folders.
 
 PHPPI should now be able to create the cache folder and caching should work.
 
-= Help I Can't Delete <Insert Folder Here> =
+== Help I Can't Delete <Insert Folder Here> ==
 
 In some situations you may find you're unable to delete one of your picture folders (or cache folders) via FTP or through other methods. This will happen if your user account doesn't have write permissions on that folder. You can only remedy this through SSH or by contacting your web host. In future versions of PHPPI I will be providing ways to do this without having to use SSH.
 
@@ -69,6 +69,6 @@ In the meanwhile if you can login using SSH then perform the following:
 
 You should now be able to remove the folder using FTP. If you have root access to your server you could also login as root and remove the file using Linux commands without changing the permissions.
 
-= Conclusion =
+== Conclusion ==
 
 Hopefully this has helped you getting cache to work. If not feel free to post below so that I can improve this guide.
