@@ -56,7 +56,7 @@ PHPPI should now be able to create the cache folder and caching should work.
 
 In some situations you may find you're unable to delete one of your picture folders (or cache folders) via FTP or through other methods. This will happen if your user account doesn't have write permissions on that folder. You can only remedy this through SSH or by contacting your web host. In future versions of PHPPI I will be providing ways to do this without having to use SSH.
 
-In the meanwhile if you can login using SSH then perform the following:
+In the meanwhile if you can login using SSH (as root user) then perform the following:
 
  * Go to the parent folder of the folder you want to remove.
 {{{cd /var/www/mysite.com/public_html/}}}
@@ -67,7 +67,10 @@ In the meanwhile if you can login using SSH then perform the following:
  * Change the permissions to 0775.
 {{{chmod -R 775 Flowers}}}
 
-You should now be able to remove the folder using FTP. If you have root access to your server you could also login as root and remove the file using Linux commands without changing the permissions.
+If your root login is disabled for SSH you could try the following and then run the commands above:
+{{{su}}}
+
+You should now be able to remove the folder using FTP.
 
 == Conclusion ==
 
