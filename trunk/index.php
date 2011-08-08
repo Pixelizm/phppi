@@ -1,6 +1,6 @@
 <?php
 /*
-PHP Picture Index 1.0.0 RC
+PHP Picture Index 1.0.1
 --------------------------
 Created by: Brendan Ryan (http://www.pixelizm.com/)
 Site: http://code.google.com/p/phppi/
@@ -26,7 +26,7 @@ require('phppi/includes/classes/phppi.php');
 
 $phppi = new PHPPI;
 
-$phppi->vars['version'] = '1.0.0 RC';
+$phppi->vars['version'] = '1.0.1';
 
 $phppi->startTimer();
 
