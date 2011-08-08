@@ -1,4 +1,6 @@
 <?php
+ini_set("gd.jpeg_ignore_warning", 1);
+
 class PHPPI
 {
 	var $settings;
