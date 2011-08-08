@@ -1,6 +1,10 @@
 #summary Updated list of changes
 #labels Featured
 
+== 1.0.1 (8th August, 2011) ==
+
+  * Fixed broken jpeg support. Thumbnails of broken jpegs should now work.
+
 == 1.0.0 RC (2nd April, 2011) ==
 
   * Theme support, PHPPI has been redesigned to allow easy creation of themes by use of ready made functions to insert content created by PHPPI.
