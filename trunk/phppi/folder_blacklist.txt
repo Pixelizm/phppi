@@ -1,5 +1,1 @@
-.
-..
-cache
-thumbs
-phppi
+.,..,cache,thumbs,phppi

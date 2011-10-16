@@ -16,6 +16,7 @@ $this->settings['general']['enable_up_hotkey'] = false; //Up returns to folder/f
 /* Advanced */
 
 $this->settings['advanced']['debug_mode'] = false; //Enable if having issues with PHPPI so you can report the exact error you are getting.
+$this->settings['advanced']['debug_show_all'] = false; //Shows all information regarding the current page.
 
 $this->settings['advanced']['allow_mobile_theme'] = true; //Enables mobile version if supported by theme.
 $this->settings['advanced']['allow_theme_settings'] = true; //Allow theme settings to override your own.
