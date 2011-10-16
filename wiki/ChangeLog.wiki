@@ -1,6 +1,12 @@
 #summary Updated list of changes
 #labels Featured
 
+== 1.0.2 (16th October, 2011) ==
+
+  * Fixed uppercase file extension support, now it should not matter if file extensions are in uppercase.
+  * Changed blacklist files to be delimited by commas instead of new lines.
+  * Added debug_show_all setting, $this->settings['advanced']['debug_show_all']. See settings.php for info.
+
 == 1.0.1 (8th August, 2011) ==
 
   * Fixed broken jpeg support. Thumbnails of broken jpegs should now work.
