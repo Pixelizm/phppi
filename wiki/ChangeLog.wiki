@@ -5,7 +5,7 @@
 
   * Fixed uppercase file extension support, now it should not matter if file extensions are in uppercase.
   * Changed blacklist files to be delimited by commas instead of new lines.
-  * Added debug_show_all setting, $this->settings['advanced']['debug_show_all']. See settings.php for info.
+  * Added debug_show_all setting. See settings.php for info.
 
 == 1.0.1 (8th August, 2011) ==
 
