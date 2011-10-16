@@ -86,20 +86,20 @@ class PHPPI
 	function loadLists()
 	{
 		$temp_file = file_get_contents('phppi/file_blacklist.txt');
-		$this->vars['file_blacklist'] = explode("\n", $temp_file);
+		$this->vars['file_blacklist'] = explode(",", $temp_file);
 		
 		$temp_folder = file_get_contents('phppi/folder_blacklist.txt');
-		$this->vars['folder_blacklist'] = explode("\n", $temp_folder);
+		$this->vars['folder_blacklist'] = explode(",", $temp_folder);
 		
 		$temp_type = file_get_contents('phppi/file_types.txt');
-		$this->vars['file_types'] = explode("\n", $temp_type);
+		$this->vars['file_types'] = explode(",", $temp_type);
 	}
 	
 	function checkList($item, $list)
 	{		
 		foreach($list as $list_item)
 		{
-			if ($list_item == $item)
+			if (strtolower($list_item) == strtolower($item))
 			{
 				return true;
 			}
@@ -490,7 +490,8 @@ class PHPPI
 				}
 				
 				$file_ext = $this->pathInfo($file['file'], 'file_ext');
-				if ($file_ext == 'jpeg' or $file_ext == 'jpg') { $file_ext = 'jpg';	}
+				$temp_file_ext = strtolower($file_ext);
+				if ($temp_file_ext == 'jpeg' or $temp_file_ext == 'jpg') { $file_ext = 'jpg';	}
 				
 				if ($this->settings['advanced']['use_gd'] == true)
 				{		
@@ -590,7 +591,7 @@ class PHPPI
 			}
 		}
 		
-		$file_ext = $this->pathInfo($filename, 'file_ext');
+		$file_ext = strtolower($this->pathInfo($filename, 'file_ext'));
 		
 		if ($file_ext == 'jpg' or $file_ext == 'jpeg')
 		{
@@ -969,6 +970,14 @@ http://www.gnu.org/licenses/
 			}
 			
 			require('phppi/themes/' . $this->settings['general']['theme'] . '/' . $this->vars['theme_mode'] . '/template.php');
+			
+			if ($this->settings['advanced']['debug_show_all'] == true)
+			{
+				echo "DEBUG - Page Variables: <br /><br />";
+				echo "<pre>";
+				print_r($this->vars);
+				echo "</pre>";
+			}
 		} else {
 			//Show folder view	
 			if ($this->vars['dir_req'] == '')
@@ -989,6 +998,14 @@ http://www.gnu.org/licenses/
 			}
 			
 			require('phppi/themes/' . $this->settings['general']['theme'] . '/' . $this->vars['theme_mode'] . '/template.php');
+			
+			if ($this->settings['advanced']['debug_show_all'] == true)
+			{
+				echo "DEBUG - Page Variables: <br /><br />";
+				echo "<pre>";
+				print_r($this->vars);
+				echo "</pre>";
+			}
 		}
 	}
 }
