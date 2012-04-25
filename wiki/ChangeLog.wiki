@@ -3,7 +3,7 @@
 
 == 1.1.0 (25th April, 2012) ==
 
-New Features:
+* New Features:
 
   * Redesigned thumbnails, more modern look with css animations. Also shows image thumbnails from within folders.
   * New theme called Pix, designed around the new thumbnail look.
@@ -12,7 +12,7 @@ New Features:
   * Added global cache folder instead of having a cache folder inside every gallery folder.
   * Included Sample Photos.
 
-Fixes:
+* Fixes:
 
   * Now supports cryillic file and folder names.
   * Full view image now resizes correctly regardless of surrounding padding/margins.
@@ -21,48 +21,41 @@ Fixes:
   * Security fixes.
   * Other minor fixes.
 
-Settings (See settings.php for more information on each setting):
+* Settings (See settings.php for more information on each setting):
 
-  * Added:
+Added:
 	
-	['general']['page_title_show_full_path']
+  * ['general']['page_title_show_full_path']
+  * ['general']['thumb_size']['small']
+  * ['general']['thumb_size']['medium']
+  * ['general']['thumb_size']['large']
+  * ['general']['thumb_size_default']
+  * ['general']['enable_thumb_size_change']
+  * ['general']['thumb_folder_show_thumbs']
+  * ['general']['thumb_folder_shuffle']
+  * ['general']['thumb_folder_use_cache_only']
+  * ['general']['use_css_animations']
+  * ['general']['image_show_title_on_hover']
+  * ['general']['folder_show_title_on_hover']
+  * ['general']['use_popup_image_viewer']
+  * ['general']['disable_popup_image_viewer_for_mobile']
+  * ['general']['show_thumbs_under_viewer']
+  * ['general']['popup_thumb_size']
+  * ['general']['enable_mousewheel']
+  * ['general']['nextprev_image_animation']
+  * ['general']['open_image_animation']
+  * ['general']['close_image_animation']
+  * ['general']['enable_click_next']
+  * ['advanced']['cyrillic_support']
+  * ['advanced']['cache_folder']
+  * ['advanced']['thumbs_folder']
 
-	['general']['thumb_size']['small']
-	['general']['thumb_size']['medium']
-	['general']['thumb_size']['large']
-	['general']['thumb_size_default']
-	['general']['enable_thumb_size_change']
-	['general']['thumb_folder_show_thumbs']
-	['general']['thumb_folder_shuffle']
-	['general']['thumb_folder_use_cache_only']
+Depreciated:
 
-	['general']['use_css_animations']
-	['general']['image_show_title_on_hover']
-	['general']['folder_show_title_on_hover']
-
-	['general']['use_popup_image_viewer']
-	['general']['disable_popup_image_viewer_for_mobile']
-	['general']['show_thumbs_under_viewer']
-	['general']['popup_thumb_size']
-	['general']['enable_mousewheel']
-	['general']['nextprev_image_animation']
-	['general']['open_image_animation']
-	['general']['close_image_animation']
-
-	['general']['enable_click_next']
-
-	['advanced']['cyrillic_support']
-
-	['advanced']['cache_folder']
-	['advanced']['thumbs_folder']
-
-  * Depreciated:
-
-	['general']['thumb_size']
-	['general']['folder_size']
-
-	['advanced']['use_resize_toggle']
-	['advanced']['use_slimbox']
+  * ['general']['thumb_size']
+  * ['general']['folder_size']
+  * ['advanced']['use_resize_toggle']
+  * ['advanced']['use_slimbox']
 
 == 1.0.2 (16th October, 2011) ==
 
