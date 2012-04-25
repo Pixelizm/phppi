@@ -5,25 +5,25 @@
 
 New Features:
 
-- Redesigned thumbnails, more modern look with css animations. Also shows image thumbnails from within folders.
-- New theme called Pix, designed around the new thumbnail look.
-- Added fancybox support in replacement of slimbox.
-- Users can change thumbnail sizes on the fly (if enabled in settings).
-- Added global cache folder instead of having a cache folder inside every gallery folder.
-- Included Sample Photos.
+* Redesigned thumbnails, more modern look with css animations. Also shows image thumbnails from within folders.
+* New theme called Pix, designed around the new thumbnail look.
+* Added fancybox support in replacement of slimbox.
+* Users can change thumbnail sizes on the fly (if enabled in settings).
+* Added global cache folder instead of having a cache folder inside every gallery folder.
+* Included Sample Photos.
 
 Fixes:
 
-- Now supports cryillic file and folder names.
-- Full view image now resizes correctly regardless of surrounding padding/margins.
-- Overhauled PHPPI's javascript to use jQuery.
-- Changed to HTML5 instead of XHTML.
-- Security fixes.
-- Other minor fixes.
+* Now supports cryillic file and folder names.
+* Full view image now resizes correctly regardless of surrounding padding/margins.
+* Overhauled PHPPI's javascript to use jQuery.
+* Changed to HTML5 instead of XHTML.
+* Security fixes.
+* Other minor fixes.
 
 Settings (See settings.php for more information on each setting):
 
-- Added:
+* Added:
 	
 	['general']['page_title_show_full_path']
 
@@ -56,7 +56,7 @@ Settings (See settings.php for more information on each setting):
 	['advanced']['cache_folder']
 	['advanced']['thumbs_folder']
 
-- Depreciated:
+* Depreciated:
 
 	['general']['thumb_size']
 	['general']['folder_size']
