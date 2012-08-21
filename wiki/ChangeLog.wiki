@@ -1,6 +1,26 @@
 #summary Updated list of changes
 #labels Featured
 
+== 1.1.1 (21st August, 2012) ==
+
+* New Features:
+
+  * Access log. Outputs ip address, time and action of anyone accessing phppi.
+
+* Fixes:
+
+  * Creates cache.xml file if expired instead of every page load.
+  * No longer shows "Folder not found" instead of updating the cache when it expired.
+
+* Settings (See settings.php for more information on each setting):
+
+Added:
+
+  * $this->settings['advanced']['access_log']
+  * $this->settings['advanced']['access_log_no_thumbnail']
+  * $this->settings['advanced']['phppi_log'] (Feature to be added in next release)
+  * $this->settings['advanced']['log_timezone']
+
 == 1.1.0 (25th April, 2012) ==
 
 * New Features:
