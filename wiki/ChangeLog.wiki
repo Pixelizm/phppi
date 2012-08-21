@@ -16,10 +16,10 @@
 
 Added:
 
-  * $this->settings['advanced']['access_log']
-  * $this->settings['advanced']['access_log_no_thumbnail']
-  * $this->settings['advanced']['phppi_log'] (Feature to be added in next release)
-  * $this->settings['advanced']['log_timezone']
+  * ['advanced']['access_log']
+  * ['advanced']['access_log_no_thumbnail']
+  * ['advanced']['phppi_log'] (Feature to be added in next release)
+  * ['advanced']['log_timezone']
 
 == 1.1.0 (25th April, 2012) ==
 
