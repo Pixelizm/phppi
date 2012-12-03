@@ -1,6 +1,42 @@
 #summary Updated list of changes
 #labels Featured
 
+== 1.2.0 (3rd, December, 2012) ==
+
+* New Features:
+
+  * Admin section and setup process for new/upgrade installs. Admin section currently only allows to check for updates and changing settings.
+  * Breadcrumb style navigation bar.
+  * Gallery no longer needs to reside in the PHPPI folder.
+  * Thumbnail themes, you can now change the style of the thumbnails irregardless of the chosen gallery theme.
+
+* Fixes:
+
+  * New php memory limit setting, increasing this value allows large photos to be shown and thumbnails to be dynamically created.
+  * Improved sections of coding that needed updating.
+  * Upgraded jQuery to 1.8.3.
+  * Other minor fixes.
+
+* Settings (See setup/admin section for more information on each setting):
+
+Added:
+
+  * [gallery_folder]
+  * [thumb_use_jpeg_for_png]
+  * [debug_show_vars]
+  * [debug_show_settings]
+  * [nav_menu_style]
+  * [thumbnail_theme]
+  * [admin_password]
+  * [php_memory]
+
+Depreciated:
+
+  * [debug_show_all]
+  * [page_title_format]
+  * [allow_theme_settings]
+  * [use_css_animations]
+
 == 1.1.1 (21st August, 2012) ==
 
 * New Features:
