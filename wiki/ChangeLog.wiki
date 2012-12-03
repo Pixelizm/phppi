@@ -21,21 +21,21 @@
 
 Added:
 
-  * [gallery_folder]
-  * [thumb_use_jpeg_for_png]
-  * [debug_show_vars]
-  * [debug_show_settings]
-  * [nav_menu_style]
-  * [thumbnail_theme]
-  * [admin_password]
-  * [php_memory]
+  * gallery_folder
+  * thumb_use_jpeg_for_png
+  * debug_show_vars
+  * debug_show_settings
+  * nav_menu_style
+  * thumbnail_theme
+  * admin_password
+  * php_memory
 
 Depreciated:
 
-  * [debug_show_all]
-  * [page_title_format]
-  * [allow_theme_settings]
-  * [use_css_animations]
+  * debug_show_all
+  * page_title_format
+  * allow_theme_settings
+  * use_css_animations
 
 == 1.1.1 (21st August, 2012) ==
 
