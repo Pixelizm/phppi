@@ -1,7 +1,7 @@
 #summary Updated list of changes
 #labels Featured
 
-== 1.2.0 (3rd, December, 2012) ==
+== 1.2.0 (3rd December, 2012) ==
 
 * New Features:
 
