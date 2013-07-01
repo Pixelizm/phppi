@@ -1,6 +1,70 @@
 #summary Updated list of changes
 #labels Featured
 
+== 1.3.0b (1st July, 2013) ==
+
+* New Features:
+
+  * Complete rewrite to support Smarty template engine, allows for easier theme creation as well as speed improvements.
+  * Classic theme, useful starting point when creating a theme.
+  * Cache folder can be stored anywhere (doesn't have to be relevant to the install folder).
+  * Blacklists moved to settings file instead of individual text files.
+  * Thumbnails now expire on the server, previously they only expired on the client's cache.
+  * Basic EXIF support, data provided by the PHP function "exif_read_data" can now be accessed by theme creators. Default theme currently does not use EXIF data.
+  * Implemented Supersized (http://buildinternet.com/project/supersized/) for Slideshow feature.
+  * Should now work with Windows (Tested with WAMP).
+
+* Fixes:
+
+  * General speed improvements.
+  * Single quotations now allowed in file/folder names. Example: Family's Photos is now acceptable.
+  * Other minor bugs.
+
+* Settings (See settings.php for more information on each setting):
+
+Added:
+
+  * folder_blacklist
+  * file_blacklist
+  * file_types
+  * smarty_cache
+  * smarty_expire
+  * smarty_theme_debug
+  * smarty_cache_folder
+  * smarty_compile_folder
+  * folder_cover_filename
+  * enable_slideshow
+  * slideshow_background_color
+  * slideshow_sizing
+  * slideshow_slide_interval
+  * slideshow_transition_speed
+  * slideshow_transition_effect
+  * slideshow_random
+  * enable_exif_support
+  * version
+  * gd_client_cache_expire
+  * gd_server_cache_expire
+  * file_cache_expire
+
+Depreciated (Some settings may return in future versions):
+
+  * nav_menu_style
+  * thumbnail_theme
+  * thumb_use_jpeg_for_png
+  * image_show_title_on_hover
+  * folder_show_title_on_hover
+  * disable_popup_image_viewer_for_mobile
+  * show_thumbs_under_viewer
+  * popup_thumb_size
+  * enable_mousewheel
+  * enable_click_next
+  * use_javascript_navigation
+  * debug_show_settings
+  * access_log
+  * access_log_no_thumbnail
+  * log_timezone
+  * allow_mobile_theme
+
 == 1.2.0 (3rd December, 2012) ==
 
 * New Features:
